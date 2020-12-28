@@ -64,7 +64,7 @@ outputs:
 
 runs:
   using: 'docker'
-  image: 'docker://maxux/zflist:development-v2'
+  image: 'docker://mhpr/zflist:development-v2'
   entrypoint: /usr/local/bin/zflist-publish
   env:
     ZFLIST_MNT: /tmp/newflist
